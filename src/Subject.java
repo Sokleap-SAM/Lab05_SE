@@ -1,3 +1,20 @@
+/**
+ * Name: Subject.java
+ * Date: 13 January 2025
+ * Author: SAM Sokleap
+ * Modified: 13 January 2025
+ * Description: Lab 05
+ * Functions:
+ *      -getPrice(): Subject
+ *      -getProgram(): Subject
+ *      -getName(): Subject
+ *      -getCredits(): Subject
+ * Variables:
+ *      -price: Subject
+ *      -PROGRAM: Subject
+ *      -name: Subject
+ *      -credits: Subject
+ * */
 public class Subject {
 
     private static final double price;
