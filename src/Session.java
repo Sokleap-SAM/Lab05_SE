@@ -42,6 +42,14 @@ public class Session {
         return endTime;
     }
 
+    public void setDuration(int startTime, int endTime){
+        if(startTime >= endTime){
+            throw new IllegalArgumentException("Start time must be less than end time.");
+        }
+        this.startTime = startTime;
+        this.endTime = endTime;
+    }
+
     public static void main(String[] args) {
 
     }
