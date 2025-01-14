@@ -1,3 +1,19 @@
+/**
+ * Name: Session.java
+ * Date: 14 January 2025
+ * Author: KHEANG Ann
+ * Modified: 14 January 2025
+ * Description: Lab 05
+ * Functions:
+ * -getSessionName(): Session
+ * -setSessionName(): Session
+ * -getStartTIme(): Session
+ * -getEndTime(): Session
+ * Variables:
+ * sessionName
+ * startTime
+ * endTime
+ */
 public class Session {
 
     private String sessionName;
@@ -27,6 +43,6 @@ public class Session {
     }
 
     public static void main(String[] args) {
-        
+
     }
 }
